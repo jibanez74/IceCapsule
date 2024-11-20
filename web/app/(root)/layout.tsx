@@ -7,9 +7,9 @@ import { Toaster } from "@/components/ui/toaster";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Dashboard | BPC Drive",
+  title: "Dashboard | IceCapsule",
   description:
-    "Access and manage your files securely with BPC Drive. View storage usage, recent uploads, and organize your company documents efficiently.",
+    "Access and manage your files securely with IceCapsule. View storage usage, recent uploads, and organize your company documents efficiently.",
   keywords: [
     "file dashboard",
     "document management",
@@ -18,26 +18,6 @@ export const metadata: Metadata = {
     "recent uploads",
     "storage analytics",
   ],
-  openGraph: {
-    title: "BPC Drive Dashboard",
-    description:
-      "Your secure enterprise file management dashboard. Monitor storage, access recent files, and manage company documents.",
-    images: [
-      {
-        url: "/dashboard-preview.png",
-        width: 1200,
-        height: 630,
-        alt: "BPC Drive Dashboard Preview",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "BPC Drive Dashboard",
-    description:
-      "Your secure enterprise file management dashboard. Monitor storage, access recent files, and manage company documents.",
-    images: ["/dashboard-preview.png"],
-  },
 };
 
 export const dynamic = "force-dynamic";
