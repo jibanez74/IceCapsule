@@ -1,0 +1,14 @@
+# system files
+.DS_Store
+.vscode
+.idea
+
+# Docker volumes
+appwrite-uploads/
+appwrite-cache/
+appwrite-functions/
+appwrite-builds/
+appwrite-certificates/
+appwrite-config/
+appwrite-mariadb/
+appwrite-redis/
